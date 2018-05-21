@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+body{
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+#mirror{
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    transform: rotate(180deg);
+}
+
+main{
+    height: 30%;
+    top: 35%;
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    text-align: center;
+}
+
+a{
+    color: white;
+    font-family: Raleway;
+    font-weight: 200;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: all .1s linear;
+    opacity: .9;
+    display: block;
+    padding-top: 15px;
+    border-bottom: 1px solid rgba(265, 265, 265, 0);
+}
+
+a:hover{
+    border-bottom: 1px solid rgba(265, 265, 265, 1);
+}
+

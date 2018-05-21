@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+body{
+    background-size: cover;
+    margin: 0;
+    color: white;
+    font-family: Raleway;
+    font-weight: 200;
+}
+
+#timer{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    top: 50%;
+    margin-top: -100px;
+    font-size: 5em;
+}
+
+input{
+    position: absolute;
+    width: 200px;
+    font-size: 1.3em;
+    left: 50%;
+    margin-left: -100px;
+    top: 70%;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-family: Raleway;
+    font-weight: 200;
+    padding: 3px 3px 3px 3px;
+    opacity: .7;
+    transition: all .1s linear;
+}
+
+input:focus{
+    outline: none;
+    border-bottom-color: white;
+    opacity: 1;
+}
+
+input:focus::-webkit-input-placeholder{
+    opacity: 0;
+}
+
+input:focus::-moz-placeholder{
+    opacity: 0;
+}
+
+input:focus:-ms-input-placeholder{
+    opacity: 0;
+}
+
+input:focus:-moz-placeholder{
+    opacity: 0;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: white;
+    transition: all .1s linear;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: white;
+    transition: all .1s linear;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: white;
+    transition: all .1s linear;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: white;
+    transition: all .1s linear;
+}
